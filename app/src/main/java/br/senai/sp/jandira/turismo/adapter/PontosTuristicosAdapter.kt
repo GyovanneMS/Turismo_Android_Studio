@@ -42,7 +42,7 @@ class PontosTuristicosAdapter(val context: Context ) : RecyclerView.Adapter<Pont
     }
 
     override fun onBindViewHolder(holder: HolderPt, position: Int) {
-        holder.bind(pontosTuristicosList.get(position));
+        holder.bind(pontosTuristicosList[position]);
     }
 
     override fun getItemCount(): Int {
